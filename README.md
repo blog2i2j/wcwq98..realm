@@ -5,34 +5,38 @@
 ## 脚本界面预览：
 
 ```
-欢迎使用realm一键转发脚本
-=================
-1. 部署环境
-2. 添加转发
-3. 添加端口段转发
-4. 删除转发
-5. 启动服务
-6. 停止服务
-7. 重启服务
-8. 检测更新
-9. 一键卸载
-10. 更新脚本
-11. 面板管理
-0. 退出脚本
-=================
-realm 状态：已安装
-realm 转发状态：启用
-面板状态：已安装
-面板服务状态：启用
+################################################
+#        Realm 一键转发脚本 (v3.1.2)         #
+################################################
+ Realm 状态: 运行中
+ 面板 状态: 已安装但未启动
+------------------------------------------------
+  1. 安装 / 重置 Realm
+  2. 卸载 Realm
+------------------------------------------------
+  3. 添加转发规则
+  4. 添加端口段转发
+  5. 删除转发规则
+  6. 查看当前配置
+------------------------------------------------
+  7. 启动服务
+  8. 停止服务
+  9. 重启服务
+------------------------------------------------
+  10. 更新脚本
+  11. 面板管理
+  0. 退出脚本
+################################################
+
 ```
 ## 一键脚本：
 国内或v6 only可用（推荐）
 ```
-curl -L https://host.wxgwxha.eu.org/https://github.com/wcwq98/realm/releases/download/v2.1/realm.sh -o realm.sh && chmod +x realm.sh &&  ./realm.sh
+curl -L https://host.wxgwxha.eu.org/https://github.com/wcwq98/realm/releases/download/v3.2.1/realm.sh -o realm.sh && chmod +x realm.sh &&  ./realm.sh
 ```
 或
 ```
-curl -L https://github.com/wcwq98/realm/releases/download/v2.1/realm.sh -o realm.sh && chmod +x realm.sh &&  ./realm.sh
+curl -L https://github.com/wcwq98/realm/releases/download/v3.2.1/realm.sh -o realm.sh && chmod +x realm.sh &&  ./realm.sh
 ```
 或
 ```
